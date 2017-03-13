@@ -1,0 +1,27 @@
+{
+  "name": "stablepriorityqueue",
+  "version": "0.1.0",
+  "description": "A stable heap-based priority queue in JavaScript",
+  "main": "StablePriorityQueue.js",
+  "scripts": {
+    "test": "mocha unit/basictests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemire/StablePriorityQueue.js.git"
+  },
+  "keywords": [
+    "heap", "binary heap", "data structure", "priority queue"
+  ],
+  "author": "Daniel Lemire <lemire@gmail.com> (http://lemire.me/en/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lemire/StablePriorityQueue.js/issues"
+  },
+  "homepage": "https://github.com/lemire/StablePriorityQueue.js#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "benchmark": "^1.0.0",
+    "mocha": "^2.3.4"
+  }
+}
