@@ -1,9 +1,14 @@
 # StablePriorityQueue.js
 A stable heap-based priority queue in JavaScript
 
-A heap can be used to implement a priority queue. At all times, you can insert
-elements quickly in a heap, and query the smallest element. You remove (poll)
-the smallest element quickly as well.
+In a priority queue, you can...
+
+- query or remove (poll) the smallest element quickly
+- insert elements quickly
+
+In practice, "quickly" often means in logarithmic time (O(log n)).
+
+A heap can be used to implement a priority queue.
 
 StablePriorityQueue is an attempt to implement a priority queue
 in JavaScript that is stable. That is, when equal values are inserted, it will always poll the oldest of the equal values.
