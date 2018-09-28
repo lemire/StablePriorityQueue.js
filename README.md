@@ -1,4 +1,6 @@
 # StablePriorityQueue.js
+[![Build Status](https://travis-ci.org/lemire/StablePriorityQueue.js.svg?branch=master)](https://travis-ci.org/lemire/StablePriorityQueue.js)
+
 A stable heap-based priority queue in JavaScript
 
 In a priority queue, you can...
