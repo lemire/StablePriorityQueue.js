@@ -53,7 +53,7 @@ StablePriorityQueue.prototype.renumber = function (myval) {
       var buffer = [];
       var j, size;
       while(! this.isEmpty() ) {
-        buffer.push(this.poll().value);
+        buffer.push(this.poll());
       }
       size = buffer.length;
       this.runningcounter = 0; // because the buffer is safe, this is now safe
