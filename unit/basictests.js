@@ -22,6 +22,20 @@ describe('StablePriorityQueue', function() {
     if (x.poll() != 4) throw 'bug';
     if (x.poll() != 5) throw 'bug';
   });
+  it('issue3', function() {
+    var queue = new StablePriorityQueue(function(a, b) {
+      return b - a;
+    });
+    for (var i = 0; i < 10; ++i) {
+      queue.add(i);
+    }
+    queue.renumber();
+    var counter = 9;
+    while (!queue.isEmpty()) {
+      if(queue.poll() != counter) throw "bug";
+      counter--;
+    }
+  });
   it('is_stable', function() {
     var x = new StablePriorityQueue(function(a, b) {
       return a.energy > b.energy;
