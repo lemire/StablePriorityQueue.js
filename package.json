@@ -1,6 +1,6 @@
 {
   "name": "stablepriorityqueue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A stable heap-based priority queue in JavaScript",
   "main": "StablePriorityQueue.js",
   "scripts": {
@@ -11,7 +11,10 @@
     "url": "git+https://github.com/lemire/StablePriorityQueue.js.git"
   },
   "keywords": [
-    "heap", "binary heap", "data structure", "priority queue"
+    "heap",
+    "binary heap",
+    "data structure",
+    "priority queue"
   ],
   "author": "Daniel Lemire <lemire@gmail.com> (http://lemire.me/en/)",
   "license": "Apache-2.0",
